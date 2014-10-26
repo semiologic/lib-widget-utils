@@ -2,7 +2,7 @@
 /*
  * Widget Utils
  * Author: Denis de Bernardy & Mike Koepke <http://www.semiologic.com>
- * Version: 2.1
+ * Version: 2.2
  */
 
 /**
@@ -57,7 +57,7 @@ class widget_utils {
 	 * @return void
 	 **/
 
-	function post_widget_config($post) {
+	static function post_widget_config($post) {
 		widget_utils::widget_config('post', $post);
 	} # post_widget_config()
 
@@ -106,7 +106,7 @@ class widget_utils {
 	 * @return void
 	 **/
 
-	function widget_config($type, $post) {
+	static function widget_config($type, $post) {
 		$post_ID = $post->ID;
 
 		echo '<p>'
