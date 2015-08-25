@@ -232,4 +232,3 @@ class widget_utils {
 			delete_post_meta($post_ID, '_widgets_desc');
 	} # save_widget_config()
 } # widget_utils
-?>
