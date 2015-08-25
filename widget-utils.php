@@ -2,7 +2,7 @@
 /*
  * Widget Utils
  * Author: Denis de Bernardy & Mike Koepke <http://www.semiologic.com>
- * Version: 2.2
+ * Version: 2.2.1
  */
 
 /**
